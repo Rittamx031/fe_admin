@@ -1,13 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import reportWebVitals from "./reportWebVitals";
+// import SingIn from "./pages/user/signin";
+import SingUp from "./pages/user/signup";
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <SingIn /> */}
+    <SingUp />
   </React.StrictMode>
 );
 
