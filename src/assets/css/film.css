@@ -1,0 +1,57 @@
+.film .link-film {
+  color: #337ab7;
+  text-shadow: none;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.film a.link-film:hover,
+a.link-film:focus {
+  color: #E02222;
+  text-decoration: underline;
+}
+
+.film .image-film {
+  border-radius: 20px;
+}
+
+
+.film .btn-dat-ve {
+  font-weight: 600;
+  border: 0px;
+  background-image: linear-gradient(to right, #0a64a7 0%, #258dcf 51%, #3db1f3 100%) !important;
+  color: #fff;
+}
+.modal .modal-title{
+  font-size: large;
+}
+.modal-footer .btn-dat-ve {
+  width: 100%;
+  font-weight: 600;
+  border: 0px;
+  background-image: linear-gradient(to right, #0a64a7 0%, #258dcf 51%, #3db1f3 100%) !important;
+  color: #fff;
+}
+
+.film .btn-dat-ve:hover {
+  border: 0px;
+  background-image: linear-gradient(to right, #1e7fc9 0%, #3798d5 51%, #71c2f2 100%) !important;
+  color: #fff;
+}
+.ant-modal-content .ant-modal-body h2 {
+  margin: 10px 0;
+  color: #337ab7;
+}
+.ant-modal-content .ant-modal-body .thead {
+  border-bottom: 1px solid rgb(203, 197, 197);
+  
+  font-size: 16px;
+  font-weight: 500;
+}
+.ant-modal-content .ant-modal-body .tbody {
+  border-bottom: 1px solid rgb(203, 197, 197);
+  font-size: 26px;
+  font-weight: 500;
+}
