@@ -1,0 +1,29 @@
+.showtimes .link-film {
+  color: #337ab7;
+  text-decoration: none;
+  text-shadow: none;
+  background-color: transparent;
+  font-weight: 650;
+  font-size: 24px;
+}
+
+.showtimes .link-film a {
+  text-decoration: none;
+}
+
+.showtimes .link-film a:hover {
+  color:#E02222;
+  text-decoration: underline;
+}
+
+.showtimes .btn-default {
+  border-radius: 0;
+  color: #333333;
+  background-color: #E5E5E5;
+  font-weight: bold;
+}
+
+.showtimes .btn-default:hover {
+  color: #E02222 !important;
+  background-color: lightgray;
+}

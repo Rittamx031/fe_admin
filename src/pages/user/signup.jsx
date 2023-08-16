@@ -35,7 +35,7 @@ const khachhang = yup.object().shape({
 //   "ngaySinh": null,
 //   "sdt": null,
 // }
-function SingUp() {
+function SignUp() {
   const { register, handleSubmit, formState: { errors } } = useForm({
     resolver: yupResolver(khachhang),
   })
@@ -151,9 +151,9 @@ function SingUp() {
             <div className="form-group">
               <input type="checkbox" id="chk" value="1" />
               <span style={{ display: 'normal' }}>Tôi cam kết tuân theo <a
-                // href="#chinhsachbaomat-pop-up" 
+                href=""
                 className="fancybox-fast-view">chính sách bảo mật</a> và <a
-                  // href="#dieukhoansudung-pop-up"
+                  href=""
                   className="fancybox-fast-view">điều khoản sử dụng</a> của ThatCimena.
               </span>
               <span style={{ display: 'none' }}>I have read and accecpt the <a href="#chinhsachbaomat-pop-up" className="fancybox-fast-view">Privacy policy</a> and <a href="#dieukhoansudung-pop-up" className="fancybox-fast-view">Terms and conditions</a> of ThatCimena.
@@ -185,4 +185,4 @@ function SingUp() {
 //   "ngaySinh": null,
 //   "sdt": null,
 // }
-export default SingUp
+export default SignUp

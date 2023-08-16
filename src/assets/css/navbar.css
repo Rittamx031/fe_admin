@@ -1,0 +1,12 @@
+.header {
+  top: 0;
+  position: sticky;
+  box-shadow: 0 1px 3px #ddd;
+  background: #fff;
+  border-radius: 0;
+  z-index: 3;
+  background-repeat: no-repeat;
+  font-size: 20px;
+  font-weight: 450;
+  color: #000;
+}

@@ -1,0 +1,25 @@
+.navfilm .navdate button {
+  border: 0;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navfilm .navdate:hover {
+  border-bottom: 2px solid black;
+}
+
+.navfilm .navdate button .date {
+  font-size: 26px;
+}
+
+.navfilm .selected button {
+  color: #03599d;
+  /* border-bottom: 1px solid #03599d; */
+}
+
+.navfilm .selected {
+  /* color: #03599d; */
+  border-bottom: 2px solid #03599d;
+}

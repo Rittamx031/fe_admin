@@ -3,13 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import reportWebVitals from "./reportWebVitals";
-// import SingIn from "./pages/user/signin";
-import SingUp from "./pages/user/signup";
+import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* <SingIn /> */}
-    <SingUp />
+    <App />
   </React.StrictMode>
 );
 

@@ -47,3 +47,8 @@
 .btn-3:hover {
   background-image: linear-gradient(to right, #fc3606 0%, #fda085 51%, #fc7704 100%) !important;
 }
+
+.green-haze.btn {
+  color: #FFFFFF;
+  background-color: #44b6ae;
+}

@@ -21,14 +21,16 @@ const SignIn = () => {
   const onSubmit = (data) => {
     console.info(data);
   };
-
+  // const onerror = (errors) {
+  //   console.log(errors)
+  // }
   return (
 
     <div className="form">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="mb-3">
           <label for="Email" className="form-label">Email address</label>
-          <input type="email" className="form-control" id="Email" aria-describedby="emailHelp" {...register("email")} />
+          <input type="text" className="form-control" id="Email" aria-describedby="emailHelp" {...register("email")} />
           <span className="text-danger">
             {errors.email?.message}
           </span>
