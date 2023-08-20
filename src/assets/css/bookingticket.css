@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*start css navigationlink */
+.navigation-link .breadcrumb-navigation {}
+
+/*end css navigationlink */
+
+/*start css booking-ticket detail */
+.booking-tiket .cemina .cemina-detail .limitage {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: burlywood;
+}
+
+.booking-tiket .cemina .cemina-seat .seat-status img {
+  width: 32px;
+}
+
+.cemina-seat-row .ghethuong {
+  background-image: url("../image/seat/ghechuadat.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  min-width: 50px;
+  width: 50px;
+  height: 50px;
+  font-size: 0.65em;
+  font-weight: 650;
+  line-height: 50px;
+}
+
+/*end css booking-ticket  detail*/
+
+/* start css showtime */
+.showtime .movie-detail {
+  border-bottom: 2px dashed black;
+}
+
+.showtime .movie-detail .movie-name {
+  font-size: 26px;
+  font-weight: 700;
+  color: blue;
+}
+
+.showtime .movie-detail .movie-language {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.showtime .movie-detail .infomation {
+  font-weight: 700;
+}
+
+.showtime .btn-dat-ve {
+  font-weight: 600;
+  border: 0px;
+  background-image: linear-gradient(to right, #0a64a7 0%, #258dcf 51%, #3db1f3 100%) !important;
+  color: #fff;
+}
+
+.booking-tiket-detail .seat-sype img {
+  width: 32px;
+}
+
+.booking-tiket-detail .title{
+  font-size:20px;
+}
+
+.booking-tiket-detail .time-end{
+  font-size:28px;
+}
+/* end css showtime */

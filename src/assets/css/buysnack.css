@@ -1,0 +1,55 @@
+.buy-snack-tap {}
+
+.buy-snack-tap .limitage {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: burlywood;
+}
+
+.buy-snack-tap .user-info .user-title i {
+  font-size: 40px;
+}
+
+
+.buy-snack-tap .user-info .user-title {
+  font-size: 32px;
+}
+
+.buy-snack-tap .combo-snacks .combo-snacks-title {
+  font-size: 32px;
+}
+
+.buy-snack-tap .table-combo .img-combo {
+  width: 80px;
+}
+
+.buy-snack-tap .bill {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.buy-snack-tap .payment-method {}
+
+.buy-snack-tap .payment-method .payment-title i {
+  font-size: 40px;
+}
+
+.buy-snack-tap .payment-method .payment-title {
+  font-size: 32px;
+}
+
+.buy-snack-tap .payment-method .payment-method-img {
+  height: 40px;
+}
+
+.payment-method {
+  line-height: 40px;
+}
+
+.payment-method input.payment-method {
+  transform: scale(2);
+}
+.time-booking .title{ 
+    font-size: 28px;
+}
+/* end css buy-snack-tap */

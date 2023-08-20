@@ -1,4 +1,6 @@
 import Page404 from "./pages/Page404";
+import BookingTicket from "./pages/bookingticket/BookingTicket";
+import BuySnack from "./pages/bookingticket/BuySnack";
 import Film from "./pages/film/Film";
 import TabFilm from "./pages/film/TabFilm";
 import HomePage from "./pages/home/homepage";
@@ -23,6 +25,8 @@ const routes = [
         element: <Film />,
       },
       { path: "/showtimes", element: <ShowTimes /> },
+      { path: "/bookingticket", element: <BookingTicket /> },
+      { path: "/buyingsnack", element: <BuySnack /> },
     ],
   },
 ];
